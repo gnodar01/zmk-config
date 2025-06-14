@@ -12,5 +12,5 @@ python = "3.10.*"
 
 [pypi-dependencies]
 #zmk = ">=0.2.0, <0.3"
-zmk = { git = "https://github.com/gnodar01/zmk-cli.git", branch = "main" }
+zmk = { git = "https://github.com/gnodar01/zmk-cli.git", branch = "dev" }
 click = "<8.2.0"
