@@ -1,2 +1,6 @@
 
 .zmk/
+
+# pixi environments
+.pixi
+*.egg-info

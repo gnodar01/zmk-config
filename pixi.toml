@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Nodar Gogoberidze <gnodar01@gmail.com>"]
+channels = ["conda-forge"]
+name = "zmk-config"
+platforms = ["osx-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+
+[pypi-dependencies]
+zmk = ">=0.2.0, <0.3"
+click = "<8.2.0"
